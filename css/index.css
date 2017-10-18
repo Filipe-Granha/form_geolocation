@@ -1,0 +1,48 @@
+body {
+	background-color: #5C417F !important;
+}
+
+.container {
+	background-color: #FFFFFF;
+	width: 90%px;
+	height: 60%px;
+	border-radius: 5px;
+	position: absolute;
+  	top: 35%;
+  	left: 5%;
+ 	margin: -100px 0 0 -150px;
+}
+
+#location-input {
+	width: 90%;
+	margin-top: 10%;
+	margin-left: 5%; 
+	height: 45px;
+}
+
+#location-lat {
+	width: 90%;
+	margin-top: 1%;
+	margin-left: 5%;
+	height:45px;
+	background-color: #e8eaea; 
+}
+
+#location-lng {
+	width: 90%;
+	margin-top: 1%;
+	margin-left: 5%;
+	margin-bottom: 5%; 
+	height: 45px;
+	background-color: #e8eaea;
+}
+
+#location-lat:empty:after {
+	content: "Latitude";
+	color: #7f8687;
+}
+
+#location-lng:empty:after {
+	content: "Longitude";
+	color: #7f8687;
+}
